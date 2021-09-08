@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    /*font-family: 'Exo 2', sans-serif; */
+    color: white;
+}
+.header {
+    height: 120vh;
+    background: url(./Images/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-header {
+    height: 120vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.logo {
+    /* height: 65px; */
+    width: 140px;
+}
+.logo2{
+    width: 5%;
+    padding: 0;
+    margin: 0;
+}
+.header ul {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    }
+.header ul li {
+    font-size: 14px;
+    /* margin-right: 20px ; */
+    }
+    
+.header ul li:hover {
+     color: #f3b93e;
+    }
+.Banner {
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(17deg ,transparent 63% , #ed302c 110%);
+}    
+.Banner-container {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.services-container {
+    background: #f3b93e;
+    margin-top: -20vh;
+    min-height: 1900px;
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+}
+.iconz img{
+    height: 60px;
+}
+.project-container {
+    position: relative;
+}
+.col-6{
+    margin: 0;
+    padding: 0;
+}
+h5{
+    font-weight: bold;
+}
+ .CAR img {
+     height: 600px;
+      transform: translateY(-100px);
+ }
+ .fa-star , .fa-star-half-alt{
+     color: gold;
+ }
+ .review-border {
+     border-right: 1px solid lightgrey;
+ }
+ .text-justify{
+    text-align: justify; 
+    text-justify: inter-word;
+ } 
+ .Service2 {
+     padding-left: 10rem; 
+     border: 1px solid yellow;
+     height: 400px;
+ } 
+ .nav-item{
+     display: flex;
+     color: #ed302c;
+     
+ }
+
+
+.nav-item img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ed302c;
+}
+.type{
+    color: #ed302c;
+    font-family: Rockwell Extra Bold;
+    font-weight: bold;
+    
+}
+/* navbar*/
+#navbar {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    margin-bottom: 90px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s ease;
+  }
+    /* social media*/
+.media{
+    height: 65px;
+    position: fixed;
+    width: 88px;
+    margin-top: 90px;
+    transition: all 0.3s linear ease;
+    box-shadow: 18px 22px 15px 15px rgba(14,0,0,.4);
+    z-index: 1;
+    background-color: rgba(53, 153, 219, 0.281)    /*  10% opaque green */ ;
+}
+.media ul{
+    margin: 0px;
+    margin-top: 8px;
+}
+
+  .media li{
+    height: 60px;
+    position:relative;
+  }
+  .media li a{
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 60px;
+    padding-left:25%;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    transition: all .3s linear ease;
+  }
+  .media li:nth-child(1) a{
+    background: #4267B2;
+  }
+  .media li:nth-child(2) a{
+    background: #a0f21d;
+  }
+  .media li:nth-child(3) a{
+    background: #E1306C;
+  }
+  .media li:nth-child(4) a{
+    background: #2867B2;
+  }
+  .media li:nth-child(5) a{
+    background: #333;
+  }
+  .media li:nth-child(6) a{
+    background: #ff0000;
+  }
+  .media li a i{
+    position:absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 27px;
+  }
+  .media ul li a p{
+    display: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif
+  }
+  .media a:hover {
+    z-index:1;
+    width: 150px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+  }
+  .media ul li:hover a p{
+    padding-left: 10%;
+    display: block;
+  }
+  .whatsapp{
+    bottom:40px;
+	right:40px;
+
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  }
+  .whats{
+    background-color:rgba(21, 221, 54, 0.281) 
+
+  }
+  .whats li:nth-child(1) a {
+    background: #a0f21d;
+  }
+  .mphone{
+    border-radius:20px;
+  }
+  .phone{
+    background-color:rgba(221, 21, 21, 0.180) 
+  }
+  .phone li:nth-child(1) a {
+    background: #ed302c;
+  }
+/* Galeria */
+.col-6 img{ 
+    transition: 1s ease;
+}
+.col-6 img:hover{
+    transform: scale(1.4);
+}
+/* pneuservis */
+.col-sm-3 img{ 
+    transition: 1s ease;
+}
+.col-sm-3 img:hover{
+    transform: scale(1.4);
+}
+.w-101{
+    width: 115% !important;
+    
+}
+.tex-center{
+    text-align: center !important;
+    padding-bottom: 30px;
+    
+}
+.tex-center h2{
+    color: #f3b93e;
+    background: black;
+}
+/* autoservis*/
+.mt-55{
+    padding-top: 60px;
+}
+.w-100 img{
+    width: 40px;
+}
+.col-sm-33 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+/* footer */
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+    text-align: center;
+	min-height: 80px;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+}
+/* End Footer */
+/* car washing animacion */
+.washing{
+    height: 100px;
+    width: 140px;
+}
+/*use keyframes*/
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+
+ @media (max-width: 980px) {
+    .Service2 {
+    padding-left: 0rem;
+    border: 1px solid yellow;
+    min-height: 400px;
+
+ }
+}
+@media (max-width: 767.98px) {
+    .logo {
+        /* height: 65px; */
+        width: 130px;
+
+    }
+    .col-sm-33 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col-md-6{
+        height: 400px;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 70px;
+    }
+    .Banner-container {
+        min-height: 60vh;
+    }
+    .my-55{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .media{
+        margin-top:450px;
+        height: 65px;
+        width: 30px;
+    }
+    .media li:hover a {
+        padding-left: 10px;
+    }
+    .media ul{
+        margin: 0px;
+        margin-top: 5px;
+        padding: 0px;
+    }
+    .media li a i{
+        left: 5px;
+    }
+    
+    #nabar{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+    .w-101{
+        width: 100% !important;
+        
+    }
+    .col-sm-3 img:hover{
+        transform: scale(1.12);
+    }
+    
+}
