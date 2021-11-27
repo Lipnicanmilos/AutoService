@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
     $mailFrom = $_POST['mail'];
     $message = $_POST['message'];
 
-    $mailTO = "ememgarage23@gmail.com";
+    $mailTO = "lipnicanmilos@gmail.com";
     $headers = "From: eMeMGarage.sk";
     $txt = "Odosielateľ: ".$name."\nKontakt: ".$mailFrom."\n\nSpráva: \n".$message;
 
